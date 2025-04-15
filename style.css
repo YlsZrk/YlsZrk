@@ -1,0 +1,181 @@
+body{
+    margin:0;
+}
+.boutons-container{
+    display: flex;
+    gap: 16px;
+ }
+ 
+ .bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: fit-content;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+ 
+ .bouton.primaire{
+    background: rgb(61, 61, 61);
+    color: white;
+ }
+ 
+ .bouton.primaire:hover{
+    background: #c38ff5;
+ }
+ 
+ .bouton.secondaire{
+    background: transparent;
+    color: rgb(61, 61, 61);
+    border: 2px solid rgb(61, 61, 61);
+ }
+ 
+ .bouton.secondaire:hover{
+    border: 2px solid #c38ff5;
+    color: #c38ff5;;
+ }
+ 
+ /* Avatar */
+ 
+ .avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid black;
+    object-fit: cover;
+ }
+ 
+ /* Lien */
+ 
+ .lien{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+ 
+ .lien:hover{
+    color: #8005F2;
+ }
+ 
+ /* CARTE */
+ .carte{
+    display: flex;
+    background: rgb(61, 61, 61);
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    gap: px;
+    border-radius: 16px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
+    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+    padding:%;
+    transition: all 1s ease-in-out;
+    width:90%;
+ }
+ 
+ #main1 .carte img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: AUTO;
+    object-fit: cover;
+ }
+ 
+ .carte:hover{
+    transform: scale(1.1);
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    background:rgb(61, 61, 61);
+    
+ }
+ nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+ }
+ #topleft{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px;
+ }
+ #topright{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 30px;
+ }
+ .ligne{
+    display: flex;
+    flex-direction: row;
+ }
+ .colonne{
+    display: flex;
+    flex-direction: column;
+ }
+ #topleft img{
+    width: 50px;
+    height: 50px;
+ }
+ #topright img{
+    width: 21px;
+    height: 21px;
+ }
+ header{
+    background: #20bf85;
+    width:100%;
+    
+ }
+ header img{
+    width: 500px;
+    height: 500px;;
+ }
+ header .ligne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+ header img{
+    border-radius: 21px;
+ }
+ #Travaux{
+    background:#20bf85;
+}
+ main .colonne{
+    display: flex;
+    align-items: center;
+ }
+ main h2{
+    margin:0;   
+    padding-left: 3%;
+ }
+main .carte .colonne{
+    align-items: flex-start;
+}
+#Travaux .carte img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio:auto;
+    object-fit: cover;
+    margin: 2%;
+}
+#Travaux .carte .colonne{
+    margin: 2%;
+}
+#Travaux a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Travaux .carte{
+    margin: 1%;
+}
