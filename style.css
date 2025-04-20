@@ -221,6 +221,33 @@ justify-content: space-evenly;
 
 
 footer{
+   background:rgb(61, 61, 61);
    display: flex;
    justify-content: center;
+}
+#contact{
+   background: #20bf85;
+}
+#contact img{
+   width: 21px;
+    height: 21px;
+}
+#contact a{
+   text-decoration: none;
+   color: #000000 ;
+}
+#contact ul{
+   list-style: none;
+   display: flex;
+   gap: 10px;
+}
+
+#contact .colonne{
+   display: flex;
+   margin: 3%;
+}
+#contact .ligne{
+   display: flex;
+   align-items: center;
+    justify-content: flex-start;
 }
