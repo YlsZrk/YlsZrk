@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav>   
@@ -63,7 +63,9 @@
                     <a class="bouton secondaire" href="">Contact Me</a>
                 </div>
         </div>
-        <img src="assets\icons\ylsdb.png" alt="ylsdb">
+        <div data-aos="zoom-in">
+            <img src="assets\icons\ylsdb.png" alt="ylsdb">
+        </div>
     </div>
 </header>
 
@@ -71,53 +73,73 @@
     <section id="Travaux">
         <h2>Featured Work</h2>
         <div class="colonne">
-            <article class="carte ligne">
-                <div class="colonne">
-                    <h3>Cofee shop</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus excepturi impedit laboriosam delectus quae nobis eum, repellendus ea accusantium facere ipsam obcaecati minus eligendi inventore nemo ut, et voluptates atque.</p>
-                    <a href="">Live View</a>
-                </div>
-                <img src="assets\icons\logo_big.png" alt="logo coffee shop">
-            </article>
-            <article class="carte ligne">
-                <div class="colonne">
-                    <h3>Sneakers Shop</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus excepturi impedit laboriosam delectus quae nobis eum, repellendus ea accusantium facere ipsam obcaecati minus eligendi inventore nemo ut, et voluptates atque.</p>
-                    <a href="https://ylszrk.github.io/SHOP/" target="_blank">Live View</a>
-                </div>
-                <img src="assets\icons\logo.svg" alt="logo coffee shop">
-            </article>
+            <div data-aos="fade-right">
+                <article class="carte ligne">
+                    <div class="colonne">
+                        <h3>Cofee shop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus excepturi impedit laboriosam delectus quae nobis eum, repellendus ea accusantium facere ipsam obcaecati minus eligendi inventore nemo ut, et voluptates atque.</p>
+                        <a href="">Live View</a>
+                    </div>
+                    <img src="assets\icons\logo_big.png" alt="logo coffee shop">
+                </article>
+            </div>
+            <div data-aos="fade-left">
+                <article class="carte ligne">
+                    <div class="colonne">
+                        <h3>Sneakers Shop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus excepturi impedit laboriosam delectus quae nobis eum, repellendus ea accusantium facere ipsam obcaecati minus eligendi inventore nemo ut, et voluptates atque.</p>
+                        <a href="https://ylszrk.github.io/SHOP/" target="_blank">Live View</a>
+                    </div>
+                    <img src="assets\icons\logo.svg" alt="logo coffee shop">
+                </article>
+            </div>
         </div>
     </section>
     <section id="Skills">
         <h2>Soft et Hard Skills</h2>
         <div class="ligne">
-            <article class="carte">
-                <img src="assets\icons\Group 1.png" alt="">Dynamique !
-            </article>
-            <article class="carte">
-                <img src="assets\icons\Group 2.png" alt="">Passionné
-            </article>
-            <article class="carte">
-                <img src="assets\icons\Group 3.png" alt="">Motivé
-            </article>
-            <article class="carte">
-                <img src="assets\icons\Group 4.png" alt="">À l'écoute
-            </article>
+            <div data-aos="flip-left">
+                <article class="carte">
+                    <img src="assets\icons\Group 1.png" alt="">Dynamique !
+                </article>
+            </div>
+            <div data-aos="flip-up">
+                <article class="carte">
+                    <img src="assets\icons\Group 2.png" alt="">Passionné
+                </article>
+            </div>
+            <div data-aos="flip-up">
+                <article class="carte">
+                    <img src="assets\icons\Group 3.png" alt="">Motivé
+                </article>
+            </div>
+            <div data-aos="flip-right">
+                <article class="carte">
+                    <img src="assets\icons\Group 4.png" alt="">À l'écoute
+                </article>
+            </div>
         </div>
         <div class="ligne">
-            <article class="carte">
-                <img src="assets\icons\htmlcss.png" alt="">Html/Css
-            </article>
-            <article class="carte">
-                <img src="assets\icons\js.png" alt="">Java Script
-            </article>
-            <article class="carte">
-                <img src="assets\icons\figma.png" alt="">Figma
-            </article>
-            <article class="carte">
-                <img src="assets\icons\github.png" alt="">Github
-            </article>
+            <div data-aos="flip-left">
+                <article class="carte">
+                    <img src="assets\icons\htmlcss.png" alt="">Html/Css
+                </article>
+            </div>
+            <div data-aos="flip-down">
+                <article class="carte">
+                    <img src="assets\icons\js.png" alt="">Java Script
+                </article>
+            </div>
+            <div data-aos="flip-down">
+                <article class="carte">
+                    <img src="assets\icons\figma.png" alt="">Figma
+                </article>
+            </div>
+            <div data-aos="flip-right">
+                <article class="carte">
+                    <img src="assets\icons\github.png" alt="">Github
+                </article>
+            </div>
         </div>
     </section>
     <section id="contact">
@@ -158,6 +180,9 @@
         <a href=""></a>
     </p>
 </footer>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
